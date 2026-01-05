@@ -1,16 +1,13 @@
-import { useState } from 'react'
+import Hero from "./sections/Hero"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='flex justify-center mt-10 gap-3 '>
-          <div className='border-1 w-100 h-100 rounded-sm'>
-
-          </div>
-          <div className='border-1 w-100 h-100 rounded-sm' >
-
+      <div className='flex justify-center mt-10 gap-6 '>
+        <Hero/>
+          <div className='flex justify-center border-1 w-220 h-200 rounded-lg bg-[#1e1e1f]' >
+            <h1>Hello</h1>
           </div>
       </div>
     </>
